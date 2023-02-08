@@ -1,0 +1,17 @@
+Proje 2
+
+[16,21,11,8,12,22] -> Merge Sort
+•	Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+•	Big-O gösterimini yazınız.
+                                                   16,21,11,8,12,22
+                                   16, 21 ,11                             8, 12, 22
+                                   16, 21       11                        8, 12           22
+                                   16   21                                8   12
+                                   16,21        11                        8, 12           22
+                                   11, 16, 21                             8, 12, 22
+                                                     8, 11, 12, 16, 21, 
+
+MergeSort algoritması üç adım alır: Bölme adımı, alt dizinin orta konumunu hesaplar ve sabit O(1) süresini alır. Conquer adımı, her biri yaklaşık n/2 öğeden oluşan iki alt diziyi yinelemeli olarak sıralar. Birleştirme adımı, en fazla n karşılaştırma gerektiren her geçişte toplam n öğeyi birleştirir, bu nedenle O(n) alır.
+
+
+www.patika.dev
