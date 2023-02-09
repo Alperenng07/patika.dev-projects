@@ -1,2 +1,2 @@
-# Selection-Sort-Projesi
-Selection Sort Projesi-patika.dev calışma
+#Projeler
+-patika.dev calışma
